@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lets-workout:build:production"
+              "buildTarget": "lets-workout:build:production"
             },
             "development": {
-              "browserTarget": "lets-workout:build:development"
+              "buildTarget": "lets-workout:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lets-workout:build"
+            "buildTarget": "lets-workout:build"
           }
         },
         "test": {

@@ -19,6 +19,9 @@ jobs:
       - name: Change directory to Angular project
         run: cd lets-workout
 
+      - name: Print current directory
+        run: pwd
+
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:

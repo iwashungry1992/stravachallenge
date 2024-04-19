@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Change directory to Angular project
-        run: cd lets-workout
+        run: cd home/runner/work/stravachallenge/lets-workout
 
       - name: Print current directory
         run: pwd

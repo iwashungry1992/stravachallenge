@@ -1,1 +1,1 @@
-# yankscrud
+# stravachallenge

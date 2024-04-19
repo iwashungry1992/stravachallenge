@@ -17,7 +17,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Change directory to Angular project
-        run: cd home/runner/work/stravachallenge/lets-workout
+        run: cd lets-workout   # Adjust the path to your Angular project directory
+        working-directory: ./stravachallenge/lets-workout  # Change to the relative path of your Angular project within the repository
 
       - name: Print current directory
         run: pwd
